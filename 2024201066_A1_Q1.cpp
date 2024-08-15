@@ -115,7 +115,7 @@ void traverseFile(int flag, long long int first, long long int last, string ipFi
     if(flag) {
       sizeBytesFirst = checkAndSeek(filePtr, first, SEEK_SET, outputFilePtr);
       if(first >= sizeBytes || last >= sizeBytes) {
-          cerr << endl << "Index are has invalid and greater than last index of file!" << endl;
+          cerr << endl << "Index are invalid and greater than last index of file!" << endl;
           close(filePtr);
           close(outputFilePtr);
           exit(EXIT_FAILURE);
