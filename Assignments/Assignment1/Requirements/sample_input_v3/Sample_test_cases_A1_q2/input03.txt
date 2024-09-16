@@ -1,0 +1,14 @@
+8 4
+code
+coder
+coding
+decode
+decoder
+codex
+coded
+decoy
+1 code
+2 co
+3 codec
+2 deco
+
